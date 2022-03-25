@@ -1,0 +1,154 @@
+{
+  "uuid": "15c13b10-d028-4e94-a3a3-e828e8a10860",
+  "lastMigration": 19,
+  "name": "ionic",
+  "endpointPrefix": "",
+  "latency": 0,
+  "port": 3001,
+  "hostname": "0.0.0.0",
+  "routes": [
+    {
+      "uuid": "ef88f239-92c6-460e-b7d9-990896ef171f",
+      "documentation": "",
+      "method": "post",
+      "endpoint": "v1/login",
+      "responses": [
+        {
+          "uuid": "256569a0-a7d8-4b77-967c-7e494e1ea0c7",
+          "body": "{\r\n\t\"username\": \"batman\",\r\n\t\"name\": \"Bruce Wayne\",\r\n\t\"image\": \"https://baltademos.blob.core.windows.net/eshop/batman.png\",\r\n\t\"email\": \"batman@balta.io\",\r\n\t\"token\": \"aHR0cHM6Ly9iYWx0YWRlbW9zLmJsb2IuY29yZS53aW5kb3dzLm5ldC9lc2hvcC9iYXRtYW4ucG5n\",\r\n\t\"roles\": [\r\n\t\t\"employee\",\r\n\t\t\"manager\"\r\n\t]\r\n}",
+          "latency": 1200,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false
+        }
+      ],
+      "enabled": true,
+      "randomResponse": false,
+      "sequentialResponse": false
+    },
+    {
+      "uuid": "e6c1a3e7-da85-4d59-a94b-187dd6c22df1",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "v1/reports/ms",
+      "responses": [
+        {
+          "uuid": "fc102174-7c88-4ce9-8e2d-f640111d6650",
+          "body": "{\r\n\t\"labels\": [\r\n\t\t\"Janeiro\",\r\n\t\t\"Fevereiro\",\r\n\t\t\"Março\",\r\n\t\t\"Abril\",\r\n\t\t\"Maio\",\r\n\t\t\"Junho\"\r\n\t],\r\n\t\"datasets\": [\r\n\t\t{\r\n\t\t\t\"label\": \"# de vendas\",\r\n\t\t\t\"data\": [\r\n\t\t\t\t7,\r\n\t\t\t\t9,\r\n\t\t\t\t12,\r\n\t\t\t\t24,\r\n\t\t\t\t8,\r\n\t\t\t\t5\r\n\t\t\t],\r\n\t\t\t\"backgroundColor\": [\r\n\t\t\t\t\"rgba(255, 99, 132, 0.2)\",\r\n\t\t\t\t\"rgba(54, 162, 235, 0.2)\",\r\n\t\t\t\t\"rgba(255, 206, 86, 0.2)\",\r\n\t\t\t\t\"rgba(75, 192, 192, 0.2)\",\r\n\t\t\t\t\"rgba(153, 102, 255, 0.2)\",\r\n\t\t\t\t\"rgba(255, 159, 64, 0.2)\"\r\n\t\t\t],\r\n\t\t\t\"borderColor\": [\r\n\t\t\t\t\"rgba(255, 99, 132, 1)\",\r\n\t\t\t\t\"rgba(54, 162, 235, 1)\",\r\n\t\t\t\t\"rgba(255, 206, 86, 1)\",\r\n\t\t\t\t\"rgba(75, 192, 192, 1)\",\r\n\t\t\t\t\"rgba(153, 102, 255, 1)\",\r\n\t\t\t\t\"rgba(255, 159, 64, 1)\"\r\n\t\t\t],\r\n\t\t\t\"borderWidth\": 1\r\n\t\t}\r\n\t]\r\n}",
+          "latency": 1500,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false
+        }
+      ],
+      "enabled": true,
+      "randomResponse": false,
+      "sequentialResponse": false
+    },
+    {
+      "uuid": "cfc17f17-927d-42eb-95cc-4fadb6e1a1df",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "v1/orders",
+      "responses": [
+        {
+          "uuid": "96eb939d-6b26-4ea0-8281-47cc12a33bd1",
+          "body": "[\r\n\t{\r\n\t\t\"number\": \"8CV56R74\",\r\n\t\t\"date\": \"2019-07-18T17:49:00.000+0000\",\r\n\t\t\"status\": \"waiting_payment\",\r\n\t\t\"total\": 23999,\r\n\t\t\"customer\": {\r\n\t\t\t\"name\": \"Bruce Wayne\"\r\n\t\t}\r\n\t},\r\n\t{\r\n\t\t\"number\": \"2795EF65\",\r\n\t\t\"date\": \"2019-07-18T18:12:00.000+0000\",\r\n\t\t\"status\": \"confirmed\",\r\n\t\t\"total\": 7884,\r\n\t\t\"customer\": {\r\n\t\t\t\"name\": \"Peter Parker\"\r\n\t\t}\r\n\t}\r\n]",
+          "latency": 1500,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false
+        }
+      ],
+      "enabled": true,
+      "randomResponse": false,
+      "sequentialResponse": false
+    },
+    {
+      "uuid": "228c1380-b929-4463-a7fc-92a3742e268a",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "v1/orders/8CV56R74",
+      "responses": [
+        {
+          "uuid": "c3653521-4bb0-4bea-98a3-3f2128ef4657",
+          "body": "{\r\n\t\"number\": \"8CV56R74\",\r\n\t\"date\": \"2019-07-18T17:49:00.000+0000\",\r\n\t\"status\": \"waiting_payment\",\r\n\t\"total\": 23999,\r\n\t\"discount\": 990,\r\n\t\"deliveryFee\": 990,\r\n\t\"customer\": {\r\n\t\t\"name\": \"Bruce Wayne\"\r\n\t},\r\n\t\"items\": [\r\n\t\t{\r\n\t\t\t\"code\": \"C5BFAAF9\",\r\n\t\t\t\"title\": \"Ração Canil 30KG\",\r\n\t\t\t\"price\": 20000\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"code\": \"AFA21D81\",\r\n\t\t\t\"title\": \"Coleira Cachorro Petz\",\r\n\t\t\t\"price\": 3990\r\n\t\t}\r\n\t]\r\n}",
+          "latency": 1300,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false
+        }
+      ],
+      "enabled": true,
+      "randomResponse": false,
+      "sequentialResponse": false
+    }
+  ],
+  "proxyMode": false,
+  "proxyHost": "",
+  "proxyRemovePrefix": false,
+  "tlsOptions": {
+    "enabled": false,
+    "type": "CERT",
+    "pfxPath": "",
+    "certPath": "",
+    "keyPath": "",
+    "caPath": "",
+    "passphrase": ""
+  },
+  "cors": true,
+  "headers": [
+    {
+      "key": "Content-Type",
+      "value": "application/json"
+    },
+    {
+      "key": "Access-Control-Allow-Origin",
+      "value": "*"
+    },
+    {
+      "key": "Access-Control-Allow-Methods",
+      "value": "GET,POST,PUT,PATCH,DELETE,HEAD,OPTIONS"
+    },
+    {
+      "key": "Access-Control-Allow-Headers",
+      "value": "Content-Type, Origin, Accept, Authorization, Content-Length, X-Requested-With"
+    }
+  ],
+  "proxyReqHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "proxyResHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ]
+}

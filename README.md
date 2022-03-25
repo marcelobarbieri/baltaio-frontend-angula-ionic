@@ -1,8 +1,12 @@
 # Criando Apps Web com Angular 8 e Ionic 4
 
+Tópicos organizados nos **commits**
+
 - Apresentação
 
 <details><summary>Ferramentas</summary>
+
+<br>
 
 ```ps
 npm install -g @angular/cli
@@ -32,6 +36,32 @@ Package                      Version
 ionic --version
 5.2.4
 ```
+
+</details>
+
+<details><summary>Startup do Projeto</summary>
+
+<br>
+
+Mockoon
+
+    Import/Export > Mockoon´s Format > Import from a file (JSON)
+        ./assets/mockoon.json
+
+Criar projeto com o nome **eshop** com o modelo **blank**
+
+```
+ionic start eshop blank
+```
+
+Arquivos diferenciados:
+
+    src/
+        theme/
+            variables.scss
+        global.scss
+
+SCSS - Syntactically Awesome Style Sheet
 
 </details>
 
