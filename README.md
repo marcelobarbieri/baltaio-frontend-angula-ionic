@@ -82,9 +82,19 @@ https://ionicframework.com/
 - Models
 - Date Service
 
+<details><summary>Tela de Login: Parte 1</summary>
+
 <br>
 
+```ps
+ionic generate page pages/account/login
+```
+
+http://localhost:8100/login
+
 </details>
+
+<br>
 
 # Referência
 
