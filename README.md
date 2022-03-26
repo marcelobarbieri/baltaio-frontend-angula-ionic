@@ -79,6 +79,12 @@ https://ionicframework.com/
 
 <br>
 
+- Models
+
+<br>
+
+</details>
+
 # Referência
 
 [Carreira Desenvolvedor Frontend Angular - Balta.io](https://balta.io/carreiras/desenvolvedor-frontend-angular)
