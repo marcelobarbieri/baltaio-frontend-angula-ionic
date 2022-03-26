@@ -145,6 +145,10 @@ Decodificação Base 64
 
 <br>
 
+- Reset Password
+
+<br>
+
 # Referência
 
 [Carreira Desenvolvedor Frontend Angular - Balta.io](https://balta.io/carreiras/desenvolvedor-frontend-angular)
