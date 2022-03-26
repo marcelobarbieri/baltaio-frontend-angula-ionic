@@ -115,6 +115,36 @@ https://animate.style/
 
 <br>
 
+<details><summary>Salvando dados do usuário</summary>
+
+<br>
+
+Inspecionar > Dev Tools > Aplicativo > Armazenamento Local
+
+```
+Chave: shop.data
+Value:
+eyJ1c2VybmFtZSI6ImJhdG1hbiIsIm5hbWUiOiJCcnVjZSBXYXluZSIsImltYWdlIjoiaHR0cHM6Ly9iYWx0YWRlbW9zLmJsb2IuY29yZS53aW5kb3dzLm5ldC9lc2hvcC9iYXRtYW4ucG5nIiwiZW1haWwiOiJiYXRtYW5AYmFsdGEuaW8iLCJ0b2tlbiI6ImFIUjBjSE02THk5aVlXeDBZV1JsYlc5ekxtSnNiMkl1WTI5eVpTNTNhVzVrYjNkekxtNWxkQzlsYzJodmNDOWlZWFJ0WVc0dWNHNW4iLCJyb2xlcyI6WyJlbXBsb3llZSIsIm1hbmFnZXIiXX0=
+
+```
+
+Decodificação Base 64
+
+```json
+{
+  "username": "batman",
+  "name": "Bruce Wayne",
+  "image": "https://baltademos.blob.core.windows.net/eshop/batman.png",
+  "email": "batman@balta.io",
+  "token": "aHR0cHM6Ly9iYWx0YWRlbW9zLmJsb2IuY29yZS53aW5kb3dzLm5ldC9lc2hvcC9iYXRtYW4ucG5n",
+  "roles": ["employee", "manager"]
+}
+```
+
+</details>
+
+<br>
+
 # Referência
 
 [Carreira Desenvolvedor Frontend Angular - Balta.io](https://balta.io/carreiras/desenvolvedor-frontend-angular)
