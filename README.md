@@ -99,6 +99,16 @@ http://localhost:8100/login
 - Tela de Login: Parte 2
 - Tela de Login: Parte 3
 
+<details><summary>Botões e Cores</summary>
+
+<br>
+
+https://ionicframework.com/docs/
+
+https://animate.style/
+
+</details>
+
 <br>
 
 # Referência
