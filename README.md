@@ -65,6 +65,18 @@ SCSS - Syntactically Awesome Style Sheet
 
 </details>
 
+<details><summary>Temas</summary>
+
+<br>
+
+```ps
+ionic serve
+```
+
+https://ionicframework.com/
+
+</details>
+
 <br>
 
 # Referência
