@@ -96,6 +96,10 @@ http://localhost:8100/login
 
 <br>
 
+- Tela de Login: Parte 2
+
+<br>
+
 # Referência
 
 [Carreira Desenvolvedor Frontend Angular - Balta.io](https://balta.io/carreiras/desenvolvedor-frontend-angular)
