@@ -215,6 +215,18 @@ ionic generate component components/order-status-badge
 - Order Details
 - Habilitando Botões por Perfil
 
+<details><summary>Finalizando</summary>
+
+```ps
+ionic build --prod
+```
+
+```
+www/
+```
+
+</details>
+
 <br>
 
 # Referência
