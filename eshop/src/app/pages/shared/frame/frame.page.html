@@ -1,5 +1,6 @@
-<ion-menu>
+<ion-menu content-id="menuContent">
   <ion-content padding>
+    <app-user-card></app-user-card>
     <ion-list lines="none">
       <ion-item-divider>
         <ion-label>&nbsp;</ion-label>
@@ -10,7 +11,8 @@
       <ion-item class="clickable" (click)="goToPage('orders')" detail>
         <ion-icon slot="start" color="light" name="list"></ion-icon> Pedidos
       </ion-item>
+    </ion-list>
   </ion-content>
 </ion-menu>
 
-<ion-router-outlet main></ion-router-outlet>
+<ion-router-outlet main id="menuContent"></ion-router-outlet>
