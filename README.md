@@ -213,6 +213,7 @@ ionic generate component components/order-status-badge
 </details>
 
 - Order Details
+- Habilitando Botões por Perfil
 
 <br>
 
