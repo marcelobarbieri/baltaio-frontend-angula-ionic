@@ -106,6 +106,31 @@
       "enabled": true,
       "randomResponse": false,
       "sequentialResponse": false
+    },
+    {
+      "uuid": "d50943f0-926b-4f33-82d7-46afda271fbc",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "v1/orders/2795EF65",
+      "responses": [
+        {
+          "uuid": "38db9162-5df8-4689-9a09-ceb6c2b49a7f",
+          "body": "{\r\n\t\"number\": \"2795EF65\",\r\n\t\"date\": \"2019-07-18T18:12:00.000+0000\",\r\n\t\"status\": \"confirmed\",\r\n\t\"total\": 7884,\r\n\t\"discount\": 990,\r\n\t\"deliveryFee\": 990,\r\n\t\"customer\": {\r\n\t\t\"name\": \"Peter Parker\"\r\n\t},\r\n\t\"items\": [\r\n\t\t{\r\n\t\t\t\"code\": \"C5BFAAF9\",\r\n\t\t\t\"title\": \"Ração Canil 30KG\",\r\n\t\t\t\"price\": 3894\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"code\": \"AFA21D81\",\r\n\t\t\t\"title\": \"Coleira Cachorro Petz\",\r\n\t\t\t\"price\": 3990\r\n\t\t}\r\n\t]\r\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false
+        }
+      ],
+      "enabled": true,
+      "randomResponse": false,
+      "sequentialResponse": false
     }
   ],
   "proxyMode": false,

@@ -212,6 +212,8 @@ ionic generate component components/order-status-badge
 
 </details>
 
+- Order Details
+
 <br>
 
 # Referência
