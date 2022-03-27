@@ -1,6 +1,6 @@
 # Criando Apps Web com Angular 8 e Ionic 4
 
-Tópicos organizados nos **commits**
+> Tópicos organizados nos **commits**
 
 - Apresentação
 
@@ -163,6 +163,17 @@ https://www.chartjs.org/
 </details>
 
 - Gráfico de Vendas: Parte 2
+
+<details><summary>Estrutura das Páginas</summary>
+
+<br>
+
+```ps
+ionic generate page pages/frame
+ionic generate page pages/frameless
+```
+
+</details>
 
 <br>
 
