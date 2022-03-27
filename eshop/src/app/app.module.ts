@@ -7,11 +7,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { HttpClientModule } from '@angular/common/http';
 import { FramePage } from './pages/shared/frame/frame.page';
 import { ComponentsModule } from './components/components.module';
+import { AuthorizedGuard } from './guards/authorized.guard';
+import { ManagerGuard } from './guards/manager.guard';
 
 @NgModule({
   declarations: [
     AppComponent,
-    FramePage
+    FramePage,
   ],
   entryComponents: [],
   imports: [
@@ -24,6 +26,8 @@ import { ComponentsModule } from './components/components.module';
   exports: [
   ],
   providers: [
+    AuthorizedGuard,
+    ManagerGuard,
     {
       provide: RouteReuseStrategy,
       useClass: IonicRouteStrategy

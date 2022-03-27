@@ -189,6 +189,19 @@ ionic generate component components/user-card
 - Configurando as Rotas
 - Route Guard
 
+<details><summary>Order List Component</summary>
+
+<br>
+
+```ps
+ionic generate page pages/store/orders
+ionic generate page pages/store/orders-details
+
+ionic generate component components/order-list
+```
+
+</details>
+
 <br>
 
 # Referência
