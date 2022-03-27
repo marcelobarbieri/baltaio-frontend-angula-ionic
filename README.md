@@ -1,5 +1,42 @@
 # Criando Apps Web com Angular 8 e Ionic 4
 
+Extensão dos cursos **Começando com Angular** e **Criando AppsWeb com Angular e UiKit**.
+
+Projeto para um Petshop utilizando componentes do Ionic para a construção do frontend em Angular.
+
+O foco é a construção de uma área com funções administrativas do Petshop utilizando o Ionic.
+
+Desenvolvimento de funcionalidades comuns para área de gestão de vendas utilizando componentes do Ionic com funcionalidades condicionadas ao perfil do usuário logado e gráfico de vendas utilizando **jsChart**
+
+## Aprendizado
+
+1. Criar um projeto Angular utilizando Ionic
+2. Trabalhar com Temas do Ionic
+3. Básico de SCSS para construir aplicativos Angular
+4. Criar componentes utilizando o Ionic
+5. Criar autenticação/ login
+6. Criar área Administrativa com Angular
+7. Criar fluxo de reset de senha com Angular
+8. Importar componente sem **npm install**
+9. Criar gráfico de vendas com **jsChart**
+10. Armazenar dados do usuário no **localStorage**
+11. Limitar funcionalidades de acordo com o perfil do usuário logado
+12. Construir rotas e trabalhar com Routing no Angular
+13. Proteger rotas implementando um guardião (Route Guard)
+14. Implementar navegação com Angular
+15. Implementar formulários simples com Ionic
+16. Aprender a formatar moedas utilizando pipe no Angular
+
+## Tecnologias e versões utilizadas
+
+1. Node.js v16.14.0
+2. Ionic 5.2.4
+3. Angular CLI 12.2.12
+4. Mockoon v1.17.0
+5. Visual Studio Code
+
+## Tópicos
+
 > Tópicos organizados nos **commits**
 
 - Apresentação
@@ -228,6 +265,14 @@ www/
 </details>
 
 <br>
+
+# Links
+
+https://animate.style/
+
+https://ionicframework.com/
+
+https://www.chartjs.org/
 
 # Referência
 
