@@ -162,6 +162,8 @@ https://www.chartjs.org/
 
 </details>
 
+- Gráfico de Vendas: Parte 2
+
 <br>
 
 # Referência
