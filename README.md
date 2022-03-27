@@ -77,8 +77,6 @@ https://ionicframework.com/
 
 </details>
 
-<br>
-
 - Models
 - Date Service
 
@@ -94,8 +92,6 @@ http://localhost:8100/login
 
 </details>
 
-<br>
-
 - Tela de Login: Parte 2
 - Tela de Login: Parte 3
 
@@ -109,11 +105,7 @@ https://animate.style/
 
 </details>
 
-<br>
-
 - Autenticando
-
-<br>
 
 <details><summary>Salvando dados do usuário</summary>
 
@@ -143,11 +135,7 @@ Decodificação Base 64
 
 </details>
 
-<br>
-
 - Reset Password
-
-<br>
 
 <details><summary>Componentes</summary>
 
@@ -159,6 +147,18 @@ ionic generate component components/loading
 ```
 
 http://localhost:8100/home
+
+</details>
+
+<details><summary>Gráfico de Vendas: Parte 1</summary>
+
+<br>
+
+```ps
+ionic generate component components/monthly-sales-chart
+```
+
+https://www.chartjs.org/
 
 </details>
 
