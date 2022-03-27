@@ -175,6 +175,17 @@ ionic generate page pages/frameless
 
 </details>
 
+<details><summary>User Card</summary>
+
+<br>
+
+```ps
+ionic generate component components/navbar
+ionic generate component components/user-card
+```
+
+</details>
+
 <br>
 
 # Referência
