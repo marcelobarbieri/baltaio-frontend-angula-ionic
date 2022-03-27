@@ -202,6 +202,16 @@ ionic generate component components/order-list
 
 </details>
 
+<details><summary>Order Status Component</summary>
+
+<br>
+
+```ps
+ionic generate component components/order-status-badge
+```
+
+</details>
+
 <br>
 
 # Referência

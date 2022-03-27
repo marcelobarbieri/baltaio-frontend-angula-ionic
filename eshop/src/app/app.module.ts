@@ -21,6 +21,7 @@ import { ManagerGuard } from './guards/manager.guard';
     BrowserModule,
     HttpClientModule,
     IonicModule.forRoot(),
+    ComponentsModule,
     AppRoutingModule,
   ],
   exports: [
