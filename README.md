@@ -187,6 +187,7 @@ ionic generate component components/user-card
 </details>
 
 - Configurando as Rotas
+- Route Guard
 
 <br>
 
