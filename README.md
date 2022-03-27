@@ -149,6 +149,21 @@ Decodificação Base 64
 
 <br>
 
+<details><summary>Componentes</summary>
+
+<br>
+
+```ps
+ionic generate module components
+ionic generate component components/loading
+```
+
+http://localhost:8100/home
+
+</details>
+
+<br>
+
 # Referência
 
 [Carreira Desenvolvedor Frontend Angular - Balta.io](https://balta.io/carreiras/desenvolvedor-frontend-angular)
